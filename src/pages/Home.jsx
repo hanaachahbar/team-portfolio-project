@@ -1,11 +1,12 @@
 import '../styles/Home.css';
 import { useNavigate } from "react-router-dom";
-import DanilOuakli from '../assets/DanilOuakli.jpg';
+import DanilOuakli from '../assets/Danilouakli.jpg';
+import  Ayamouffok from '../assets/Ayamouffok.jpg'
 
 export default function Home() {
     const navigator = useNavigate();
     const members = [
-        { job: 'competence', fullname: 'Aya mouffok', pageName: 'Aya-mouffok'},
+        { job: 'competence', fullname: 'Aya mouffok', pageName: 'Aya-mouffok', image: Ayamouffok},
         { job: 'competence', fullname: 'Hanaa Chahbar', pageName: 'Hanaa-chahbar' },
         { job: 'competence', fullname: 'Ilafe Namra', pageName: 'Ilafe-namra-hamdat' },
         { job: 'competence', fullname: 'Mohamed Saad', pageName: 'Mohamed-alamin-saad' },
