@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import '../styles/HanaaChahbar.css'
-import hanaaImg from '../assets/hanaa.jpg';
+import hanaaImg from '../assets/hanaachahbar.jpg';
 export default function HanaaChahbar() {
     const navigator  = useNavigate();
 
