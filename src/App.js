@@ -4,7 +4,7 @@ import AyaMouffok from "./pages/Aya-mouffok";
 import HanaaChahbar from "./pages/Hanaa-chahbar";
 import IlafeNamra from "./pages/Ilafe-namra-hamdat";
 import MohamedSaad from "./pages/Mohamed-alamin-saad";
-import DanilOuakli from "./pages/Danil-ouakili";
+import DanilOuakli from "./pages/Danil-ouakli";
 import AymenZahzouh from "./pages/Aymen-zahzouh";
 
 export default function App() {
