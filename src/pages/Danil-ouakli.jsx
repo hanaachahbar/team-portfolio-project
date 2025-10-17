@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import '../styles/DanilOuakli.css'
+import DanilOuakli from '../assets/DanilOuakli.jpg'
 
 export default function DanilOuakli() {
     const navigator  = useNavigate();
@@ -24,7 +25,7 @@ export default function DanilOuakli() {
                         In addition, I specialize in mobile and web development, covering both frontend and backend 
                         technologies. I'm also proficient in a wide range of programming languages and modern frameworks.
                     </div>
-                    <img src="" alt="image" height={200} width={180}/>
+                    <img src={DanilOuakli} alt="image" height={200} width={180}/>
                 </div>
             </div>
 
