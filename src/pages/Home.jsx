@@ -1,5 +1,6 @@
 import '../styles/Home.css';
 import { useNavigate } from "react-router-dom";
+import DanilOuakli from '../assets/DanilOuakli.jpg';
 
 export default function Home() {
     const navigator = useNavigate();
