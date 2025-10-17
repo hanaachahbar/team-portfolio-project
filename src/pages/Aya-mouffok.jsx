@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import '../styles/AyaMouffok.css'
-import  AyaMouff from '../assets/AyaMouff.jpg'
+import  Ayamouffok from '../assets/Ayamouffok.jpg'
 
 export default function AyaMouffok() {
     const navigator  = useNavigate();
@@ -22,7 +22,7 @@ export default function AyaMouffok() {
                     <div className="description">
                         I’m a third-year student at the National Higher School of Artificial Intelligence in Sidi Abdellah, Algiers. I’m passionate about artificial intelligence and technology, always eager to learn new things and explore new opportunities. I enjoy combining creativity and logic to build meaningful and innovative projects.
                     </div>
-                    <img src={AyaMouff} alt="image" height={200} width={180}/>
+                    <img src={Ayamouffok} alt="image" height={200} width={180}/>
                 </div>
             </div>
 
