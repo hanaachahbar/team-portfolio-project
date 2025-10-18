@@ -16,7 +16,7 @@ export default function MohamedAlaminSaad() {
             </div>
 
             <div className="about-me">
-                <div className="title">About me</div>
+                <div className="title">About Me</div>
                 <div className="info">
                     <div className="description">
                         &bull; I'm Saad Mohamed Al Amine, and I’m a third-year student at the National School of Artificial Intelligence 
