@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import '../styles/AymenZahzouh.css';
-import AymenPhoto from '../assets/AymenZahzouh.jpg'; // <-- make sure to add your image in assets folder
+import AymenPhoto from '../assets/Aymenzahzouh.jpg'; // <-- make sure to add your image in assets folder
 
 export default function AymenZahzouh() {
     const navigator = useNavigate();
