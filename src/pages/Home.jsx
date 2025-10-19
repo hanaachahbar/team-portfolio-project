@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import DanilOuakli from '../assets/Danilouakli.jpg';
 import  Ayamouffok from '../assets/Ayamouffok.jpg';
 import  hanaachahbar from '../assets/hanaachahbar.jpg';
-import AymenZahzouh from './Aymen-zahzouh';
+import AymenZahzouh from '../assets/Aymenzahzouh.jpg';
 export default function Home() {
     const navigator = useNavigate();
     const members = [
