@@ -1,16 +1,19 @@
 import '../styles/Home.css';
 import { useNavigate } from "react-router-dom";
 import DanilOuakli from '../assets/Danil_Ouakli.jpg';
-
+import  Ayamouffok from '../assets/Ayamouffok.jpg';
+import  hanaachahbar from '../assets/hanaachahbar.jpg';
+import AymenZahzouh from '../assets/Aymenzahzouh.jpg';
+import SaadMohamed from '../assets/SaadMohamed.jpg'
 export default function Home() {
     const navigator = useNavigate();
     const members = [
-        { job: 'competence', fullname: 'Aya mouffok', pageName: 'Aya-mouffok'},
-        { job: 'competence', fullname: 'Hanaa Chahbar', pageName: 'Hanaa-chahbar' },
-        { job: 'competence', fullname: 'Ilafe Namra', pageName: 'Ilafe-namra-hamdat' },
-        { job: 'competence', fullname: 'Mohamed Saad', pageName: 'Mohamed-alamin-saad' },
-        { job: 'competence', fullname: 'Danil Ouakli', pageName: 'Danil-ouakli', image: DanilOuakli},
-        { job: 'competence', fullname: 'Aymen Zahzouh', pageName: 'Aymen-Zahzouh' },
+        { job: 'AI student', fullname: 'Aya mouffok', pageName: 'Aya-mouffok', image: Ayamouffok},
+        { job: 'AI student', fullname: 'Hanaa Chahbar', pageName: 'Hanaa-chahbar', image: hanaachahbar},
+        { job: 'AI student', fullname: 'Ilafe Namra', pageName: 'Ilafe-namra-hamdat' },
+        { job: 'AI student', fullname: 'Mohamed Saad', pageName: 'Mohamed-alamin-saad', image: SaadMohamed },
+        { job: 'AI student', fullname: 'Danil Ouakli', pageName: 'Danil-ouakli', image: DanilOuakli},
+        { job: 'AI student', fullname: 'Aymen Zahzouh', pageName: 'Aymen-Zahzouh', image: Aymenzahzouh},
     ];
 
     return (
