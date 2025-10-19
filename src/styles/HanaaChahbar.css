@@ -1,0 +1,167 @@
+.container {
+    width: 60%;
+    margin: 70px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 2px 2px 15px rgba(94, 93, 93, 0.545);
+    padding-bottom: 50px;
+}
+
+.introduction {
+    height: 60vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgb(5, 21, 122);
+}
+
+.presentation {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    padding: 0 40px;
+}
+
+.arrow-back {
+    position: absolute;
+    top: 6%;
+    left: 5%;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.arrow {
+  width: 15px;
+  height: 15px;
+  border-left: 3px solid white;
+  border-bottom: 3px solid white;
+  transform: rotate(45deg);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.arrow-back:hover .arrow {
+  transform: rotate(45deg) translateX(-2px) scale(1.05);
+}
+
+
+.splitter {
+    margin: 0 20%;
+    height: 2px;
+    background-color: rgba(4, 4, 4, 0.636);
+    border-radius: 5px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+    padding: 20px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me .title {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.about-me .info {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    padding: 40px 0;
+    font-weight: 600;
+    color: rgb(0, 0, 84);
+    font-size: 16px;
+}
+
+.description {
+    max-width: 40%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    align-items: center;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+}
+
+.skills-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.skills-list {
+    margin-left: 10%;
+    padding-bottom: 40px;
+}
+
+.competence {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+}
+
+
+.github {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.header-github {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.github a {
+    margin-left: 10%;
+    font-size: 18px;
+    color: rgb(3, 70, 255);
+    margin-top: 20px;
+}
+
+.info img {
+    border: 2px solid rgba(46, 46, 46, 0.695);
+    border-radius: 10px;
+}
+
+
+
+@media (max-width: 1000px) {
+    .container {
+        width: 80%;
+    }
+}
+
+
+
+@media (max-width: 660px) {
+    .container {
+        width: 90%;
+    }
+
+    .info {
+        flex-direction: column-reverse;
+        
+    }
+
+    .description {
+        max-width: 90%;
+        padding: 0 10%;
+    }
+
+    .info img {
+        display: block;
+        margin: 0 auto;
+    }
+}
