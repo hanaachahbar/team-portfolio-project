@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Team Portfolio Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 👥 Team Members
+- Hanaa Chahbar — [@hanaachahbar](https://github.com/hanaachahbar)
+- Hamdat Ilafe Namra— [@ilafe30](https://github.com/ilafe30)
+- Aya Mouffok — [@Aya-Mouff](https://github.com/Aya-Mouff)
+- Danil ouakili — [@danil-okl](https://github.com/danil-okl)
+- Mohamed Al Amin Saàd — [@Saad-Mohamed-Al-Amine](https://github.com/Saad-Mohamed-Al-Amine)
+- Aymen Zahzouh -[@aymen-zahzouh](https://github.com/aymen-zahzouh)
 
-## Available Scripts
+## 🌐 Deployed Website
+🔗 [Visit our Team Portfolio](https://hanaachahbar.github.io/team-portfolio-project/)
 
-In the project directory, you can run:
+## 💻 Project Overview
+This project is a collaborative Team Portfolio Website built using React framework.  
+Each member created their own profile page and added a link to it on the main index page.  
+The project demonstrates effective Git collaboration using feature branching, pull requests, and peer review.
 
-### `npm start`
+## 🧠 Team Retrospective Analysis
+Team Retrospective Analysis
+1. Most Significant Technical Challenge
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The most significant challenge our team faced during this project was resolving merge conflicts caused by a lack of communication at the beginning of development.
+In the early stages, several members worked on the same files — especially the index.html homepage — without properly synchronizing their branches with the latest version of develop. As a result, multiple conflicting edits were introduced to the same sections of the page, including layout adjustments, styling changes, and navigation links. This led to a series of merge conflicts that slowed down our progress and caused confusion about which version was the most up-to-date.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Merge Conflict Resolution
 
-### `npm test`
+To address these issues, we decided to improve our coordination and adopt a clearer workflow. Before making any changes, each member began pulling the latest updates from the develop branch and creating feature branches with descriptive names (for example, feature/implement-hanaa-chahbar-profile).
+When conflicts appeared, we followed a consistent resolution process:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Pulled the latest version of develop using git pull origin develop.
 
-### `npm run build`
+Reviewed the conflict markers (<<<<<<<, =======, >>>>>>>) carefully to understand each contributor’s changes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Discussed the modifications as a team to choose the best combined version.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Committed the resolved file with the message fix: resolve merge conflict in index.html.
+This improved communication helped us handle future conflicts much faster and with fewer errors.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Evaluation of the Workflow
 
-### `npm run eject`
+The pull request and peer review process greatly improved the quality of our final website. Having every branch reviewed before merging prevented new conflicts and ensured consistency across all pages. Although our team initially struggled with coordination, the experience taught us how vital communication and Git discipline are in collaborative projects. By the end, we had a stronger understanding of teamwork, version control, and software development best practices.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+team-portfolio-project/
+## 🧱 Repository Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- team-portfolio-project  
+  - src  
+    - pages (contains all React components for each team member)  
+      - Home.jsx  
+      - Danil-ouakli.jsx  
+      - Aya-mouffok.jsx  
+      - Aymen-zahzouh.jsx  
+      - Mohamed-alamin-saad.jsx  
+      - Hanaa-chahbar.jsx  
+      - Ilafe-namra-hamdat.jsx  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    - assets (contains all images and media files)  
+      - danil-Ouakli.jpg  
+      - ayamouffok.jpg  
+      - aymenzahzouh.jpg  
+      - SaadMohamed.jpg  
+      - hanaachahbar.jpg  
+      - ilafPic.jpg   
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    - Styles (contains CSS files for each member’s profile)  
+      - DanilOuakli.css  
+      - AyaMouffok.css  
+      - AymenZahzouh.css  
+      - MohamedSaad.css  
+      - HanaaChahbar.css  
+      - IlafeHamdat.css
+      - Home.css
 
-## Learn More
+  - public (static files served directly by React)  
+    - index.html  
+    - favicon.ico  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  - package.json (project dependencies and scripts)  
+  - README.md (project documentation)  
+  - .gitignore (files and folders to exclude from Git tracking)
