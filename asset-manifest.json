@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/team-portfolio-project/static/css/main.397960d1.css",
+    "main.js": "/team-portfolio-project/static/js/main.2ea3f121.js",
+    "static/js/453.cdf3d411.chunk.js": "/team-portfolio-project/static/js/453.cdf3d411.chunk.js",
+    "static/media/SaadMohamed.jpg": "/team-portfolio-project/static/media/SaadMohamed.1cb3bd6c6270e9733c6c.jpg",
+    "static/media/hanaachahbar.jpg": "/team-portfolio-project/static/media/hanaachahbar.275e4592616c7e6a1bf1.jpg",
+    "static/media/IlafePic.jpg": "/team-portfolio-project/static/media/IlafePic.62d5e78fb27866851d24.jpg",
+    "static/media/Aymenzahzouh.jpg": "/team-portfolio-project/static/media/Aymenzahzouh.645b0b0254c6c2112b56.jpg",
+    "static/media/Ayamouffok.jpg": "/team-portfolio-project/static/media/Ayamouffok.e41f4f675657964c69a2.jpg",
+    "static/media/Danil_Ouakli.jpg": "/team-portfolio-project/static/media/Danil_Ouakli.8940e8729e68e3adf645.jpg",
+    "index.html": "/team-portfolio-project/index.html",
+    "main.397960d1.css.map": "/team-portfolio-project/static/css/main.397960d1.css.map",
+    "main.2ea3f121.js.map": "/team-portfolio-project/static/js/main.2ea3f121.js.map",
+    "453.cdf3d411.chunk.js.map": "/team-portfolio-project/static/js/453.cdf3d411.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.397960d1.css",
+    "static/js/main.2ea3f121.js"
+  ]
+}
