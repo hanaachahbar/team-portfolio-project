@@ -13,7 +13,7 @@ export default function Home() {
         { job: 'AI student', fullname: 'Ilafe Namra', pageName: 'Ilafe-namra-hamdat' },
         { job: 'AI student', fullname: 'Mohamed Saad', pageName: 'Mohamed-alamin-saad', image: SaadMohamed },
         { job: 'AI student', fullname: 'Danil Ouakli', pageName: 'Danil-ouakli', image: DanilOuakli},
-        { job: 'AI student', fullname: 'Aymen Zahzouh', pageName: 'Aymen-Zahzouh', image: Aymenzahzouh},
+        { job: 'AI student', fullname: 'Aymen Zahzouh', pageName: 'Aymen-Zahzouh', image: AymenZahzouh},
     ];
 
     return (
