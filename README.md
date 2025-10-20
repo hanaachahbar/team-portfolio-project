@@ -41,35 +41,38 @@ This improved communication helped us handle future conflicts much faster and wi
 
 The pull request and peer review process greatly improved the quality of our final website. Having every branch reviewed before merging prevented new conflicts and ensured consistency across all pages. Although our team initially struggled with coordination, the experience taught us how vital communication and Git discipline are in collaborative projects. By the end, we had a stronger understanding of teamwork, version control, and software development best practices.
 
-## 🧱 Repository Structure
 team-portfolio-project/
 │
 ├── src/
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── Danil-ouakli.jsx
-│   │   ├── Aya-mouffok.jsx
-│   │   ├── Aymen-zahzouh.jsx
-│   │   ├── Mohamed-alamin-saad.jsx
-        ├── Hanaa-chahbar.jsx
-│   │   ├── Ilafe-namra-hamdat.jsx
-│   │
-│   ├── assets/
-│   │    ├── danil-ouakli.jpg
-│   │    ├── aya-mouffok.jpg
-│   │    ├── aymen-zahzouh.jpg
-│   │    ├── mohamed-alamin-saad.jpg
-│   │    ├── ilafe-namra-hamdat.jpg
-│   │    |── team-photo.jpg
-│   ├── Styles
-│   │   │   ├── DanilOuakli.css
-│   │   │   ├── AyaMouffok.css
-│   │   │   ├── AymenZahzouh.css
-│   │   │   ├── MohamedSaad.css
-│   │   │   ├── HanaaChahbar.css
+│ ├── pages/
+│ │ ├── Home.jsx
+│ │ ├── Danil-ouakli.jsx
+│ │ ├── Aya-mouffok.jsx
+│ │ ├── Aymen-zahzouh.jsx
+│ │ ├── Mohamed-alamin-saad.jsx
+│ │ ├── Hanaa-chahbar.jsx
+│ │ ├── Ilafe-namra-hamdat.jsx
+│ │
+│ ├── assets/
+│ │ ├── danil-ouakli.jpg
+│ │ ├── aya-mouffok.jpg
+│ │ ├── aymen-zahzouh.jpg
+│ │ ├── mohamed-alamin-saad.jpg
+│ │ ├── hanaa-chahbar.jpg
+│ │ ├── ilafe-namra-hamdat.jpg
+│ │ └── team-photo.jpg
+│ │
+│ ├── Styles/
+│ │ ├── DanilOuakli.css
+│ │ ├── AyaMouffok.css
+│ │ ├── AymenZahzouh.css
+│ │ ├── MohamedSaad.css
+│ │ ├── HanaaChahbar.css
+│ │ └── IlafeHamdat.css
+│
 ├── public/
-│   ├── index.html
-│   └── favicon.ico
+│ ├── index.html
+│ └── favicon.ico
 │
 ├── package.json
 ├── README.md
