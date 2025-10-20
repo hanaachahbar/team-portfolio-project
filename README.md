@@ -42,38 +42,40 @@ This improved communication helped us handle future conflicts much faster and wi
 The pull request and peer review process greatly improved the quality of our final website. Having every branch reviewed before merging prevented new conflicts and ensured consistency across all pages. Although our team initially struggled with coordination, the experience taught us how vital communication and Git discipline are in collaborative projects. By the end, we had a stronger understanding of teamwork, version control, and software development best practices.
 
 team-portfolio-project/
-│
-├── src/
-│ ├── pages/
-│ │ ├── Home.jsx
-│ │ ├── Danil-ouakli.jsx
-│ │ ├── Aya-mouffok.jsx
-│ │ ├── Aymen-zahzouh.jsx
-│ │ ├── Mohamed-alamin-saad.jsx
-│ │ ├── Hanaa-chahbar.jsx
-│ │ ├── Ilafe-namra-hamdat.jsx
-│ │
-│ ├── assets/
-│ │ ├── danil-ouakli.jpg
-│ │ ├── aya-mouffok.jpg
-│ │ ├── aymen-zahzouh.jpg
-│ │ ├── mohamed-alamin-saad.jpg
-│ │ ├── hanaa-chahbar.jpg
-│ │ ├── ilafe-namra-hamdat.jpg
-│ │ └── team-photo.jpg
-│ │
-│ ├── Styles/
-│ │ ├── DanilOuakli.css
-│ │ ├── AyaMouffok.css
-│ │ ├── AymenZahzouh.css
-│ │ ├── MohamedSaad.css
-│ │ ├── HanaaChahbar.css
-│ │ └── IlafeHamdat.css
-│
-├── public/
-│ ├── index.html
-│ └── favicon.ico
-│
-├── package.json
-├── README.md
-└── .gitignore
+## 🧱 Repository Structure
+
+- team-portfolio-project  
+  - src  
+    - pages (contains all React components for each team member)  
+      - Home.jsx  
+      - Danil-ouakli.jsx  
+      - Aya-mouffok.jsx  
+      - Aymen-zahzouh.jsx  
+      - Mohamed-alamin-saad.jsx  
+      - Hanaa-chahbar.jsx  
+      - Ilafe-namra-hamdat.jsx  
+
+    - assets (contains all images and media files)  
+      - danil-Ouakli.jpg  
+      - ayamouffok.jpg  
+      - aymenzahzouh.jpg  
+      - SaadMohamed.jpg  
+      - hanaachahbar.jpg  
+      - ilafPic.jpg   
+
+    - Styles (contains CSS files for each member’s profile)  
+      - DanilOuakli.css  
+      - AyaMouffok.css  
+      - AymenZahzouh.css  
+      - MohamedSaad.css  
+      - HanaaChahbar.css  
+      - IlafeHamdat.css
+      - Home.css
+
+  - public (static files served directly by React)  
+    - index.html  
+    - favicon.ico  
+
+  - package.json (project dependencies and scripts)  
+  - README.md (project documentation)  
+  - .gitignore (files and folders to exclude from Git tracking)
