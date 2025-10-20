@@ -47,7 +47,7 @@ export default function AymenZahzouh() {
 
             <div className="github">
                 <div className="header-github">Github link</div>
-                <a href="https://github.com/aymen-zahzouh" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/Aymenzh" target="_blank" rel="noopener noreferrer">
                     https://github.com/Aymenzh
                 </a>
             </div>
