@@ -1,6 +1,6 @@
 import '../styles/Home.css';
 import { useNavigate } from "react-router-dom";
-import DanilOuakli from '../assets/DanilOuakli.jpg';
+import DanilOuakli from '../assets/Danil_Ouakli.jpg';
 import  Ayamouffok from '../assets/Ayamouffok.jpg';
 import  hanaachahbar from '../assets/hanaachahbar.jpg';
 import AymenZahzouh from '../assets/Aymenzahzouh.jpg';
