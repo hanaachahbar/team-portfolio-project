@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import '../styles/DanilOuakli.css'
-import Danilouakli from '../assets/Danilouakli.jpg'
+import Danilouakli from '../assets/DanilOuakli.jpg'
 
 export default function DanilOuakli() {
     const navigator  = useNavigate();
