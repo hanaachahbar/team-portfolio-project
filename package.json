@@ -1,5 +1,5 @@
 {
-  "name": "team-project-portfolio",
+  "name": "team-portfolio-project",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://hanaachahbar.github.io/team-portfolio-project",
@@ -17,8 +17,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
