@@ -9,7 +9,7 @@ import AymenZahzouh from "./pages/Aymen-zahzouh";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Aya-mouffok" element={<AyaMouffok />} />
